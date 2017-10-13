@@ -2,35 +2,35 @@
 - [Table of contents](#table-of-contents)
 - [Schema for Device Information table](#schema-for-device-information-table)
 - [CURL samples](#curl-samples)
-	- [UserProfile Create](#userprofile-create)
-	- [UserProfile Get](#userprofile-get)
-	- [UserProfile PUT](#userprofile-put)
-	- [UserProfile Delete](#userprofile-delete)
-	- [UserProfile Query](#userprofile-query)
+	- [DeviceInformation Create](#deviceinformation-create)
+	- [DeviceInformation Get](#deviceinformation-get)
+	- [DeviceInformation PUT](#deviceinformation-put)
+	- [DeviceInformation Delete](#deviceinformation-delete)
+	- [DeviceInformation Query](#deviceinformation-query)
 - [Activity Diagrams](#activity-diagrams)
-	- [UserProfile Create](#userprofile-create-1)
-	- [UserProfile Get](#userprofile-get-1)
-	- [UserProfile PUT](#userprofile-put-1)
-	- [UserProfile Delete](#userprofile-delete-1)
-	- [UserProfile Query](#userprofile-query-1)
+	- [DeviceInformation Create](#deviceinformation-create-1)
+	- [DeviceInformation Get](#deviceinformation-get-1)
+	- [DeviceInformation PUT](#deviceinformation-put-1)
+	- [DeviceInformation Delete](#deviceinformation-delete-1)
+	- [DeviceInformation Query](#deviceinformation-query-1)
 - [Code Samples for C Sharp](#code-samples-for-c-sharp)
-	- [UserProfile Create](#userprofile-create-2)
-	- [UserProfile Get](#userprofile-get-2)
-	- [UserProfile PUT](#userprofile-put-2)
-	- [UserProfile Delete](#userprofile-delete-2)
-	- [UserProfile Query](#userprofile-query-2)
+	- [DeviceInformation Create](#deviceinformation-create-2)
+	- [DeviceInformation Get](#deviceinformation-get-2)
+	- [DeviceInformation PUT](#deviceinformation-put-2)
+	- [DeviceInformation Delete](#deviceinformation-delete-2)
+	- [DeviceInformation Query](#deviceinformation-query-2)
 - [Code Samples for Node JS](#code-samples-for-node-js)
-	- [UserProfile Create](#userprofile-create-3)
-	- [UserProfile Get](#userprofile-get-3)
-	- [UserProfile PUT](#userprofile-put-3)
-	- [UserProfile Delete](#userprofile-delete-3)
-	- [UserProfile Query](#userprofile-query-3)
+	- [DeviceInformation Create](#deviceinformation-create-3)
+	- [DeviceInformation Get](#deviceinformation-get-3)
+	- [DeviceInformation PUT](#deviceinformation-put-3)
+	- [DeviceInformation Delete](#deviceinformation-delete-3)
+	- [DeviceInformation Query](#deviceinformation-query-3)
 - [Code Samples for JavaScript](#code-samples-for-javascript)
-	- [UserProfile Create](#userprofile-create-4)
-	- [UserProfile Get](#userprofile-get-4)
-	- [UserProfile PUT](#userprofile-put-4)
-	- [UserProfile Delete](#userprofile-delete-4)
-	- [UserProfile Query](#userprofile-query-4)
+	- [DeviceInformation Create](#deviceinformation-create-4)
+	- [DeviceInformation Get](#deviceinformation-get-4)
+	- [DeviceInformation PUT](#deviceinformation-put-4)
+	- [DeviceInformation Delete](#deviceinformation-delete-4)
+	- [DeviceInformation Query](#deviceinformation-query-4)
 
 Schema for Device Information table
 --------------
@@ -49,7 +49,7 @@ Schema for Device Information table
 
 CURL samples
 --------------
-UserProfile Create
+DeviceInformation Create
 --------------
 ```curl
 curl -X "POST" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile?one=1&two=2" \
@@ -67,7 +67,7 @@ curl -X "POST" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile
 
 ```
 
-UserProfile Get
+DeviceInformation Get
 --------------
 ```curl
 curl "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D?one=1&two=2" \
@@ -76,7 +76,7 @@ curl "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D?
      -d $'{}'
 ```
 
-UserProfile PUT
+DeviceInformation PUT
 --------------
 ```curl
 curl -X "PUT" "https://64bg0rty5h.execute-api.us-east-1.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D" \
@@ -88,7 +88,7 @@ curl -X "PUT" "https://64bg0rty5h.execute-api.us-east-1.amazonaws.com/qa/api/v1/
 }'
 
 ```
-UserProfile Delete
+DeviceInformation Delete
 --------------
 ```curl
 curl -X "DELETE" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D?one=1&two=2" \
@@ -96,7 +96,7 @@ curl -X "DELETE" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofi
      -H "Content-Type: application/json" \
      -d $'{}'
 ```
-UserProfile Query
+DeviceInformation Query
 --------------
 ```curl
 curl -X "POST" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/query" \
@@ -109,23 +109,23 @@ curl -X "POST" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile
 ```
 Activity Diagrams
 --------------
-UserProfile Create
+DeviceInformation Create
 --------------
 ![Picture](Image/Register_Device.PNG)
 
-UserProfile Get
+DeviceInformation Get
 --------------
 ![Picture](Image/Get_Device.PNG)
 
-UserProfile PUT
+DeviceInformation PUT
 --------------
 ![Picture](Image/Update_Device.PNG)
 
-UserProfile Delete
+DeviceInformation Delete
 --------------
 ![Picture](Image/Delete_device.PNG)
 
-UserProfile Query
+DeviceInformation Query
 --------------
 ![Picture](Image/Device_Query.PNG)
 
@@ -135,7 +135,7 @@ UserProfile Query
 
 Code Samples for C Sharp
 --------------
-UserProfile Create
+DeviceInformation Create
 --------------
 ```C#
 using System;
@@ -176,7 +176,7 @@ namespace MyNamespace {
 }
 
 ```
-UserProfile Get
+DeviceInformation Get
 --------------
 
 ```C#
@@ -218,7 +218,7 @@ namespace MyNamespace {
 }
 
 ```
-UserProfile PUT
+DeviceInformation PUT
 --------------
 
 ```C#
@@ -261,7 +261,7 @@ namespace MyNamespace {
 
 ```
 
-UserProfile Delete
+DeviceInformation Delete
 --------------
 
 ```C#
@@ -304,7 +304,7 @@ namespace MyNamespace {
 
 ```
 
-UserProfile Query
+DeviceInformation Query
 --------------
 
 ```C#
@@ -349,7 +349,7 @@ namespace MyNamespace {
 
 Code Samples for Node JS
 --------------
-UserProfile Create
+DeviceInformation Create
 --------------
 ```javascript
 // request UserProfile Create 
@@ -406,7 +406,7 @@ UserProfile Create
 
 ```
 
-UserProfile Get
+DeviceInformation Get
 --------------
 ```javascript
 // request UserProfile Get 
@@ -462,7 +462,7 @@ UserProfile Get
 
 ```
 
-UserProfile PUT
+DeviceInformation PUT
 --------------
 ```javascript
 // request UserProfile PUT 
@@ -518,7 +518,7 @@ UserProfile PUT
 
 ```
 
-UserProfile Delete
+DeviceInformation Delete
 --------------
 ```javascript
 // request UserProfile Delete 
@@ -574,7 +574,7 @@ UserProfile Delete
 
 ```
 
-UserProfile Query
+DeviceInformation Query
 --------------
 ```javascript
 // request UserProfile Query 
@@ -633,7 +633,7 @@ UserProfile Query
 
 Code Samples for JavaScript
 --------------
-UserProfile Create
+DeviceInformation Create
 --------------
 ```javascript
 // UserProfile Create (POST https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile)
@@ -672,7 +672,7 @@ jQuery.ajax({
 
 ```
 
-UserProfile Get
+DeviceInformation Get
 --------------
 ```javascript
 // UserProfile Get (GET https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D)
@@ -702,7 +702,7 @@ jQuery.ajax({
 
 ```
 
-UserProfile PUT
+DeviceInformation PUT
 --------------
 ```javascript
 // UserProfile PUT (PUT https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D)
@@ -738,7 +738,7 @@ jQuery.ajax({
 
 ```
 
-UserProfile Delete
+DeviceInformation Delete
 --------------
 ```javascript
 // UserProfile Delete (DELETE https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/%7Bid%7D)
@@ -771,7 +771,7 @@ jQuery.ajax({
 
 ```
 
-UserProfile Query
+DeviceInformation Query
 --------------
 ```javascript
 // UserProfile Query (POST https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile/query)
