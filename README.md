@@ -111,23 +111,23 @@ Activity Diagrams
 --------------
 UserProfile Create
 --------------
-![Picture](/Image/Register_Device.png)
+![Picture](../Register_Device.png)
 
 UserProfile Get
 --------------
-![Picture](/Image/Get_Device.png)
+![Picture](../Get_Device.png)
 
 UserProfile PUT
 --------------
-![Picture](/Image/Update_Device.png)
+![Picture](../Update_Device.png)
 
 UserProfile Delete
 --------------
-![Picture](/Image/Delete_device.png)
+![Picture](../Delete_device.png)
 
 UserProfile Query
 --------------
-![Picture](/Image/Device_Query.png)
+![Picture](../Device_Query.png)
 
 
 
