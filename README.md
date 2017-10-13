@@ -2,31 +2,31 @@
 - [Table of contents](#table-of-contents)
 - [Schema for Device Information table](#schema-for-device-information-table)
 - [CURL samples](#curl-samples)
-	- [DeviceRegistration Create](#deviceregistration-create)
+	- [Device Registration](#device-registration)
 	- [DeviceInformation Get](#deviceinformation-get)
 	- [DeviceInformation PUT](#deviceinformation-put)
 	- [DeviceInformation Delete](#deviceinformation-delete)
 	- [DeviceInformation Query](#deviceinformation-query)
 - [Activity Diagrams](#activity-diagrams)
-	- [DeviceRegistration Create](#deviceregistration-create-1)
+	- [Device Registration](#device-registration1)
 	- [DeviceInformation Get](#deviceinformation-get-1)
 	- [DeviceInformation PUT](#deviceinformation-put-1)
 	- [DeviceInformation Delete](#deviceinformation-delete-1)
 	- [DeviceInformation Query](#deviceinformation-query-1)
 - [Code Samples for C Sharp](#code-samples-for-c-sharp)
-	- [DeviceRegistration Create](#deviceregistration-create-2)
+	- [Device Registration](#device-registration-2)
 	- [DeviceInformation Get](#deviceinformation-get-2)
 	- [DeviceInformation PUT](#deviceinformation-put-2)
 	- [DeviceInformation Delete](#deviceinformation-delete-2)
 	- [DeviceInformation Query](#deviceinformation-query-2)
 - [Code Samples for Node JS](#code-samples-for-node-js)
-	- [DeviceRegistration Create](#deviceregistration-create-3)
+	- [Device Registration](#device-registration-3)
 	- [DeviceInformation Get](#deviceinformation-get-3)
 	- [DeviceInformation PUT](#deviceinformation-put-3)
 	- [DeviceInformation Delete](#deviceinformation-delete-3)
 	- [DeviceInformation Query](#deviceinformation-query-3)
 - [Code Samples for JavaScript](#code-samples-for-javascript)
-	- [DeviceRegistration Create](#deviceregistration-create-4)
+	- [Device Registration](#device-registration-4)
 	- [DeviceInformation Get](#deviceinformation-get-4)
 	- [DeviceInformation PUT](#deviceinformation-put-4)
 	- [DeviceInformation Delete](#deviceinformation-delete-4)
@@ -49,7 +49,7 @@ Schema for Device Information table
 
 CURL samples
 --------------
-DeviceRegistration Create
+Device Registration
 --------------
 ```curl
 curl -X "POST" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/deviceinformation?one=1&two=2" \
@@ -109,7 +109,7 @@ curl -X "POST" "https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/deviceinfor
 ```
 Activity Diagrams
 --------------
-DeviceRegistration Create
+Device Registration
 --------------
 ![Picture](Image/Register_Device.PNG)
 
@@ -135,7 +135,7 @@ DeviceInformation Query
 
 Code Samples for C Sharp
 --------------
-DeviceRegistration Create
+Device Registration
 --------------
 ```C#
 using System;
@@ -349,7 +349,7 @@ namespace MyNamespace {
 
 Code Samples for Node JS
 --------------
-DeviceRegistration Create
+Device Registration
 --------------
 ```javascript
 // request UserProfile Create 
@@ -633,7 +633,7 @@ DeviceInformation Query
 
 Code Samples for JavaScript
 --------------
-DeviceRegistration Create
+Device Registration
 --------------
 ```javascript
 // UserProfile Create (POST https://XXXXXXXXXXXXXXXXXXXX.amazonaws.com/qa/api/v1/userprofile)
