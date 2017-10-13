@@ -8,7 +8,7 @@
 	- [DeviceInformation Delete](#deviceinformation-delete)
 	- [DeviceInformation Query](#deviceinformation-query)
 - [Activity Diagrams](#activity-diagrams)
-	- [Device Registration](#device-registration1)
+	- [Device Registration](#device-registration-1)
 	- [DeviceInformation Get](#deviceinformation-get-1)
 	- [DeviceInformation PUT](#deviceinformation-put-1)
 	- [DeviceInformation Delete](#deviceinformation-delete-1)
