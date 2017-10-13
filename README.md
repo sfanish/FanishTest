@@ -115,19 +115,19 @@ UserProfile Create
 
 UserProfile Get
 --------------
-![Picture](Image/Get_Device.png)
+![Picture](Image/Get_Device.PNG)
 
 UserProfile PUT
 --------------
-![Picture](Image/Update_Device.png)
+![Picture](Image/Update_Device.PNG)
 
 UserProfile Delete
 --------------
-![Picture](Image/Delete_device.png)
+![Picture](Image/Delete_device.PNG)
 
 UserProfile Query
 --------------
-![Picture](Image/Device_Query.png)
+![Picture](Image/Device_Query.PNG)
 
 
 
