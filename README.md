@@ -8,44 +8,44 @@
 	- [UserProfile Delete](#userprofile-delete)
 	- [UserProfile Query](#userprofile-query)
 - [Activity Diagrams](#activity-diagrams)
-    - [UserProfile Create](#userprofile-create-1)
-	- [UserProfile Get](#userprofile-get-1)
-	- [UserProfile PUT](#userprofile-put-1)
-	- [UserProfile Delete](#userprofile-delete-1)
-	- [UserProfile Query](#userprofile-query-1)
-- [Code Samples for C Sharp](#code-samples-for-c-sharp)
 	- [UserProfile Create](#userprofile-create-1)
 	- [UserProfile Get](#userprofile-get-1)
 	- [UserProfile PUT](#userprofile-put-1)
 	- [UserProfile Delete](#userprofile-delete-1)
 	- [UserProfile Query](#userprofile-query-1)
-- [Code Samples for Node JS](#code-samples-for-node-js)
+- [Code Samples for C Sharp](#code-samples-for-c-sharp)
 	- [UserProfile Create](#userprofile-create-2)
 	- [UserProfile Get](#userprofile-get-2)
 	- [UserProfile PUT](#userprofile-put-2)
 	- [UserProfile Delete](#userprofile-delete-2)
 	- [UserProfile Query](#userprofile-query-2)
-- [Code Samples for JavaScript](#code-samples-for-javascript)
+- [Code Samples for Node JS](#code-samples-for-node-js)
 	- [UserProfile Create](#userprofile-create-3)
 	- [UserProfile Get](#userprofile-get-3)
 	- [UserProfile PUT](#userprofile-put-3)
 	- [UserProfile Delete](#userprofile-delete-3)
 	- [UserProfile Query](#userprofile-query-3)
-    
+- [Code Samples for JavaScript](#code-samples-for-javascript)
+	- [UserProfile Create](#userprofile-create-4)
+	- [UserProfile Get](#userprofile-get-4)
+	- [UserProfile PUT](#userprofile-put-4)
+	- [UserProfile Delete](#userprofile-delete-4)
+	- [UserProfile Query](#userprofile-query-4)
+
 Schema for Device Information table
 --------------
 
-| id | {GUID}|
-| :---: | :---: |
-| ActiveDirID  | 111 |
-| CardID |AWS123 |
-| Domain | domain|
-| Email | test@test.com |
+|       id       |    {GUID}     |
+| :------------: | :-----------: |
+|  ActiveDirID   |      111      |
+|     CardID     |    AWS123     |
+|     Domain     |    domain     |
+|     Email      | test@test.com |
 | LastDeviceUsed | str(datetime) |
-| LastLogin | str(datetime)|
-| Name | Name |
-|O365ID | xyx |
-|O365Token | abcxyx |
+|   LastLogin    | str(datetime) |
+|      Name      |     Name      |
+|     O365ID     |      xyx      |
+|   O365Token    |    abcxyx     |
 
 CURL samples
 --------------
@@ -111,23 +111,23 @@ Activity Diagrams
 --------------
 UserProfile Create
 --------------
-![UserProfile Create](relative/path/to/Register_Device.png)
+![UserProfile Create](Image/Register_Device.png)
 
 UserProfile Get
 --------------
-![UserProfile Get](relative/path/to/Get_Device.png)
+![UserProfile Get](Image/Get_Device.png)
 
 UserProfile PUT
 --------------
-![UserProfile PUT](relative/path/to/Update_Device.png)
+![UserProfile PUT](Image/Update_Device.png)
 
 UserProfile Delete
 --------------
-![UserProfile Delete](relative/path/to/Delete_device.png)
+![UserProfile Delete](Image/Delete_device.png)
 
 UserProfile Query
 --------------
-![UserProfile Query](relative/path/to/Device_Query.png)
+![UserProfile Query](Image/Device_Query.png)
 
 
 
